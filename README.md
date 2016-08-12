@@ -1,6 +1,6 @@
 # Pepe
 
-pepe for your irb
+pepe for your irb.
 
 ## Installation
 
@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+just add this lines to your `.irbrc`:
+```ruby
+# .irbrc
+require 'pepe'
+puts Pepe.generate
+```
 
 ## Development
 

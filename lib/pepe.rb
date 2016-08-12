@@ -1,7 +1,7 @@
 require "pepe/version"
 
 module Pepe
-  def generate
+  def self.generate
     <<-FOO
 __________████████_____██████
 _________█░░░░░░░░██_██░░░░░░█
